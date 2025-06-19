@@ -1,0 +1,17 @@
+{
+  "name": "furensic.eu-homagepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
+    "start": "browser-sync start --server 'src' --files 'src/**/*' --no-ui --port 3000 --reload-delay 10"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "tailwindcss": "^4.1.10",
+    "browser-sync": "^2.27.7"
+  },
+  "author": "kassiopeia",
+  "license":"MIT"
+}

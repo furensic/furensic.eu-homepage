@@ -3,7 +3,7 @@ services:
     image: nginx
     volumes:
       - ./nginx/templates:/etc/nginx/templates
-      - ./web:/data/www
+      - ./src:/data/www
     ports:
       - "80:80"
     environment:
