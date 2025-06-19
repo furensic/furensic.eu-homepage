@@ -1,0 +1,11 @@
+services:
+  web:
+    image: nginx
+    volumes:
+      - ./nginx/templates:/etc/nginx/templates
+      - ./web:/data/www
+    ports:
+      - "80:80"
+    environment:
+      - NGINX_HOST=localhost
+      - NGINX_PORT=80
