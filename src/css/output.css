@@ -190,9 +190,6 @@
   .text-blue-600 {
     color: var(--color-blue-600);
   }
-  .underline {
-    text-decoration-line: underline;
-  }
 }
 @property --tw-font-weight {
   syntax: "*";
