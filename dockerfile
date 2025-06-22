@@ -18,3 +18,4 @@ EXPOSE 3000
 
 # start app
 CMD ["npm", "start", "dev"]
+# CMD ["npm", "run", "dev"] # still have to figure out how i can run both browser sync and tailwindcss
